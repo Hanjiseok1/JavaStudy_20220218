@@ -25,7 +25,7 @@ public class UserData {
 
 	public void showUsers() {
 		for(int i = 0; i < users.length; i++) {
-			users[i].showUser();
+			System.out.println(users[i]);
 		}
 	}
 	

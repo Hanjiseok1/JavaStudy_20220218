@@ -15,9 +15,5 @@ public class User {
 	private String password;
 	private String name;
 	private String email;
-	public void showUser() {
-		// TODO Auto-generated method stub
-		
-	}
 	
 }
