@@ -18,7 +18,7 @@ public class IfElseEx2 {
 		int y = 0;
 		int result = 0;
 		
-		System.out.println("두 수를 입력해주세요: ");
+		System.out.print("두 수를 입력해주세요: ");
 		x = scanner.nextInt();
 		y = scanner.nextInt();
 		

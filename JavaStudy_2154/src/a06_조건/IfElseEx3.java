@@ -28,6 +28,7 @@ public class IfElseEx3 {
 			}else {
 				result = "홀수";
 			}
+			System.out.println(result + " 입니다. ");
 		}
 	}
 }

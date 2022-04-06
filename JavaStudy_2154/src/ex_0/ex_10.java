@@ -4,8 +4,6 @@ public class ex_10 {
 
 	public static void main(String[] args) {
 //		삼항연산자 연습
-//		05번 부터 이해가 잘 안감
-		
 		
 		int num1 = 10;
 		int num2 = 20;
