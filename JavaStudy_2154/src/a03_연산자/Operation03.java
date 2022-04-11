@@ -20,7 +20,6 @@ public class Operation03 {
 							score > 59 ? 'D' :
 								score > 0 ? 'F' : 'X' 
 												: 'X';
-							
 	}
 
 }

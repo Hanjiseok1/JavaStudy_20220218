@@ -1,31 +1,30 @@
 package ex_0;
 
-import java.util.Scanner;
-
 public class ex_17 {
 
 	public static void main(String[] args) { 	
-		// 흐름에 따라 뜻을 다르게 하는 문법
-		// 주어진 조건을 비교하여 조건에 만족 할 경우 지정된 명령문을 실행,
-		// 만족하지 않을 경우 다음 단계의 명령을 실행하는 구문
-		
 		/*
-		 * 점수를 입력받아서 해당 점수가 몇학점인지 출력하는 문제
+		 * 논리연산자
+		 * true(1), false(0)
 		 * 
-		 * 점수를 입력해주세요: 85
+		 * AND(곱) && -> 모든 값이 true여야 true의 결과가 나옴
+		 * -> true && true -> true
+		 * -> true && false -> false
 		 * 
-		 * 학생의 평점은 B학점 입니다.
+		 * OR(합) || -> 둘 중 하나라도 true이면 true이고, 둘다 false경우 false
+		 * -> true || true -> true
+		 * -> true || false -> true
+		 * -> false || false -> false
 		 * 
-		 * 점수는 0 ~ 100사이만 입력이 가능
-		 * 그외의 값이 들어왔을 때는
-		 * 점수는 0 ~ 100사이만 입력이 가능합니다. 출력
-		 * 
-		 * 90 ~ 100 A
-		 * 80 ~ 89  B
-		 * 70 ~ 79	C
-		 * 60 ~ 69	D
-		 * 0  ~ 59	F
+		 * NOT(부정) !
+		 * !true -> false
+		 * !false -> true
 		 */
 		
+		int score = 0;
+		boolean result = score >= 80 && score < 90;
+		System.out.println(result);
+		System.out.println(score == 0);
+		System.out.println(score != 0);
 	}
 }
