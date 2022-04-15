@@ -1,13 +1,13 @@
-package a08_함수;
+package ex_0;
 
-public class MethodEx1 {
-	
+public class ex_31 {
+
 	public static int outputNumber() {
 		return 10;
 	}
-
+	
 	public static void showName() {
-		String name = "김준일";
+		String name = "한지석";
 		System.out.println("이름: " + name);
 	}
 	
@@ -24,13 +24,13 @@ public class MethodEx1 {
 	}
 	
 	public static void showName2(String name) {
-		if(name == null) {
-			return;
-		}
+//		if(name == null) {
+//			return;
+//		}
 		System.out.println(name);
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 		int number = outputNumber();
 		System.out.println(number);
 		showName();
@@ -38,5 +38,5 @@ public class MethodEx1 {
 		int number2 = outputNumber2(100);
 		System.out.println(number2);
 	}
-
+	
 }
